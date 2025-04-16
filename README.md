@@ -8,7 +8,7 @@
   <br>
 </h1>
 
-## _Project Name_
+## bdrc pecha uploader
 _The project name should match its code's capability so that new users can easily understand what it does._
 
 ## Owner(s)
@@ -35,9 +35,9 @@ _Change to the owner(s) of the new repo. (This template's owners are:)_
 ## Project description
 _Use one of these:_
 
-With _Project Name_ you can _verb_ _noun_...
+With _bdrc pecha uploader_ you can _verb_ _noun_...
 
-_Project Name_ helps you _verb_ _noun_...
+_bdrc pecha uploader_ helps you _verb_ _noun_...
 
 
 ## Who this project is for
@@ -45,41 +45,41 @@ This project is intended for _target user_ who wants to _user objective_.
 
 
 ## Project dependencies
-Before using _Project Name_, ensure you have:
+Before using _bdrc pecha uploader_, ensure you have:
 * python _version_
 * _Prerequisite 2_
 * _Prerequisite 3..._
 
 
 ## Instructions for use
-Get started with _Project Name_ by _(write the first step a user needs to start using the project. Use a verb to start.)_.
+Get started with _bdrc pecha uploader_ by _(write the first step a user needs to start using the project. Use a verb to start.)_.
 
 
-### Install _Project Name_
-1. _Write the step here._ 
+### Install _bdrc pecha uploader_
+1. _Write the step here._
 
-    _Explanatory text here_ 
-    
+    _Explanatory text here_
+
     _(Optional: Include a code sample or screenshot that helps your users complete this step.)_
 
 2. _Write the step here._
- 
-    a. _Substep 1_ 
-    
+
+    a. _Substep 1_
+
     b. _Substep 2_
 
 
-### Configure _Project Name_
+### Configure _bdrc pecha uploader_
 1. _Write the step here._
 2. _Write the step here._
 
 
-### Run _Project Name_
+### Run _bdrc pecha uploader_
 1. _Write the step here._
 2. _Write the step here._
 
 
-### Troubleshoot _Project Name_
+### Troubleshoot _bdrc pecha uploader_
 1. _Write the step here._
 2. _Write the step here._
 
