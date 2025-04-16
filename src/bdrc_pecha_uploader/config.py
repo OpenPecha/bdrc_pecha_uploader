@@ -6,7 +6,7 @@ import boto3
 BDRC_ARCHIVE_BUCKET = "archive.tbrc.org"
 OCR_OUTPUT_BUCKET = "ocr.bdrc.io"
 
-aws_credentials_file = os.path.expanduser("~/.aws/credentials")
+aws_credentials_file = os.path.expanduser("../../data/credentials")
 config = configparser.ConfigParser()
 config.read(aws_credentials_file)
 
