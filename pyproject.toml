@@ -10,7 +10,7 @@ authors = [
 ]
 description = "A small example package"
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.10"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
@@ -18,7 +18,7 @@ classifiers = [
 ]
 
 dependencies = [
-    "openpecha @ git+https://github.com/OpenPecha/toolkit-v2.git@d2c580146c7092df1924111a0265d3817ad04d13",
+    "openpecha @ git+https://github.com/OpenPecha/toolkit-v2.git",
     "boto3 == 1.37.34"
 ]
 
