@@ -19,7 +19,7 @@ classifiers = [
 
 dependencies = [
     "openpecha @ git+https://github.com/OpenPecha/toolkit-v2.git@d2c580146c7092df1924111a0265d3817ad04d13",
-    "boto3 >= 1.37.34"
+    "boto3 == 1.37.34"
 ]
 
 [project.optional-dependencies]
