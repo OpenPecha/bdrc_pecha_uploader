@@ -8,6 +8,12 @@ from bdrc_pecha_uploader.download import (
 )
 
 
+class OCR_ENGINE:
+    GOOGLE_BOOKS = "google_books"
+    GOOGLE_VISION_ENGINE = "GoogleVisionEngine"
+    VISION = "vision"
+
+
 def download_gv_ocr_output(work_id, batch_number, ocr_engine):
     s3_prefix = get_s3_prefix(work_id)
     s3_prefix += f"{ocr_engine}/{batch_number}/"
@@ -45,9 +51,9 @@ def download_ocr(work_id: str, batch_number: str, ocr_engine: str):
         batch_number: The batch number of the OCR processing.
         ocr_engine: The name of the OCR engine ('google_books', 'GoogleVisionEngine', or 'vision').
     """
-    if ocr_engine == "google_books":
+    if ocr_engine == OCR_ENGINE.GOOGLE_BOOKS:
         download_gb_ocr_output(work_id, batch_number, ocr_engine)
-    elif ocr_engine in ["GoogleVisionEngine", "vision"]:
+    elif ocr_engine in [OCR_ENGINE.GOOGLE_VISION_ENGINE, OCR_ENGINE.VISION]:
         download_gv_ocr_output(work_id, batch_number, ocr_engine)
     else:
         print(f"Unsupported OCR engine: {ocr_engine}")
@@ -56,5 +62,5 @@ def download_ocr(work_id: str, batch_number: str, ocr_engine: str):
 if __name__ == "__main__":
     work_id = "W1KG10193"
     batch_number = "batch_2022"
-    ocr_engine = "GoogleVisionEngine"
+    ocr_engine = OCR_ENGINE.GOOGLE_VISION_ENGINE
     download_ocr(work_id, batch_number, ocr_engine)
